@@ -2,10 +2,11 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Film, Settings, FolderOpen, Sparkles } from "lucide-react";
+import { Film, Settings, FolderOpen, Sparkles, Wand2 } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Home", icon: Sparkles },
+  { href: "/generate", label: "Generate", icon: Wand2 },
   { href: "/projects", label: "Projects", icon: FolderOpen },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
